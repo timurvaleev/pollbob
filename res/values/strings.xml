@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pollbob</string>
+    <string name="my_polls">My polls</string>
+    <string name="latest_polls">Latest polls</string>
+    <string name="trending_polls">Trending polls</string>
+    <string name="main_title">pollbob</string>
+    <string name="about">About</string>
+    <string name="about_title">About pollbob app</string>
+	<string name="about_text">\
+Pollbob application for Android
+	</string>
+    
+</resources>

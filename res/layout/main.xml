@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="horizontal" 
+    android:padding="30dip">
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+		<Button 
+			android:id="@+id/latest_polls_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/latest_polls"/>
+		<Button 
+			android:id="@+id/trending_polls_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/trending_polls"/>
+		<Button 
+			android:id="@+id/my_polls_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/my_polls"/>
+		<Button 
+			android:id="@+id/about_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/about"/>
+	</LinearLayout>
+</LinearLayout>
